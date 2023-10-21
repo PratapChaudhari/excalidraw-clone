@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header class="mt-5">
+    <header>
       <div
         style="
           display: flex;
@@ -168,14 +168,14 @@
           </nav>
         </div>
         <div
-          class="mx-5"
+          class="
           style="display: flex; justify-content: center; align-items: center"
           id="top-center"
         >
           <nav class="navbar">
             <div class="container-fluid">
               <ul>
-                <li class="pe-4 me-2 border-end border-dark">
+                <li class="pe-4 me-2 border-end border-dark functio">
                   <a href="#">
                     <img
                       src="padlock.png"
@@ -185,7 +185,7 @@
                     />
                   </a>
                 </li>
-                <li class="p-2 mx-2">
+                <li class="p-2 mx-2 functio">
                   <a href="#">
                     <img
                       src="hand.png"
@@ -195,7 +195,7 @@
                     />
                   </a>
                 </li>
-                <li class="p-2 mx-2">
+                <li class="p-2 mx-2 functio">
                   <a href="#">
                     <img
                       src="cursor.png"
@@ -205,7 +205,7 @@
                     />
                   </a>
                 </li>
-                <li class="p-2 mx-2">
+                <li class="p-2 mx-2 functio">
                   <a href="#">
                     <img
                       src="square.png"
@@ -215,7 +215,7 @@
                     />
                   </a>
                 </li>
-                <li class="p-2 mx-2">
+                <li class="p-2 mx-2 functio">
                   <a href="#">
                     <img
                       src="rhombus.png"
@@ -225,7 +225,7 @@
                     />
                   </a>
                 </li>
-                <li class="p-2 mx-2">
+                <li class="p-2 mx-2 functio">
                   <a href="#">
                     <img
                       src="circle.png"
@@ -235,7 +235,7 @@
                     />
                   </a>
                 </li>
-                <li class="p-2 mx-2">
+                <li class="p-2 mx-2 functio">
                   <a href="#">
                     <img
                       src="right-arrow.png"
@@ -245,7 +245,7 @@
                     />
                   </a>
                 </li>
-                <li class="p-2 mx-2">
+                <li class="p-2 mx-2 functio">
                   <a href="#">
                     <img
                       src="line.png"
@@ -255,17 +255,21 @@
                     />
                   </a>
                 </li>
-                <li class="p-2 mx-2">
+                <li class="p-2 mx-2 functio" id="pencil">
                   <a href="#">
                     <img
-                      src="text.png"
-                      alt="text image"
+                      src="Pencil.png"
+                      alt="line image"
                       width="30"
                       height="30"
                     />
                   </a>
                 </li>
-                <li class="p-2 mx-2">
+                <li class="p-2 mx-2 functio">
+                  <input type="color" id="color-picker">
+                  </a>
+                </li>
+                <li class="p-2 mx-2 functio">
                   <a href="#">
                     <img
                       src="gallery.png"
@@ -275,7 +279,7 @@
                     />
                   </a>
                 </li>
-                <li class="p-2 mx-2">
+                <li class="p-2 mx-2 functio">
                   <a href="#">
                     <img
                       src="eraser.png"
@@ -285,7 +289,7 @@
                     />
                   </a>
                 </li>
-                <li class="p-2 px-4 mx-2 border-start border-dark">
+                <li class="p-2 px-4 mx-2 border-start border-dark functio">
                   <a href="#">
                     <img
                       src="shapes.png"
@@ -306,7 +310,7 @@
           <nav class="navbar">
             <div class="container-fluid">
               <ul>
-                <li class="pe-4 me-2 border-end border-dark">
+                <li class="pe-4 me-2 border-end border-dark functio">
                   <a href="#">
                     <img
                       src="people.png"
@@ -316,7 +320,7 @@
                     />
                   </a>
                 </li>
-                <li class="p-2 mx-2">
+                <li class="p-2 mx-2 functio">
                   <a href="#">
                     <img
                       src="book.png"
@@ -329,11 +333,18 @@
                   </a>
                 </li>
               </ul>
+              
             </div>
           </nav>
         </div>
       </div>
+      
+      
+      <canvas id="canvas"></canvas>
+  
     </header>
+    
+    <!--
     <main>
       <section>
         <h1 class="fw-bold fst-italic">
@@ -364,9 +375,10 @@
         </div>
       </section>
     </main>
+    -->
     <footer class="mb-5">
       <section class="d-flex justify-content-between align-items-center">
-        <div class="d-flex" id="bottom-left">
+        <div class="d-flex" class="bottom-left">
           <div
             class="d-flex justify-content-between align-items-center border rounded-4 p-2 mx-2 me-5"
           >
@@ -436,6 +448,8 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
-    <script src="./script.js"></script>
+    
+    <script src="./codeindex.js"></script>
+    <script src="freehand.js"></script>
   </body>
 </html>

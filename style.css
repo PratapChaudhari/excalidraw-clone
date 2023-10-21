@@ -20,7 +20,9 @@ header {
     position: fixed;
     top: 50px;
     left: 200px;
-    right: 200px;
+    right: 300px;
+    border: 40pt;
+    border-color: rgb(189, 38, 38);
   }
   
   #top-right {
@@ -107,3 +109,8 @@ header {
     bottom: 50px;
     right: 50px;
   }
+  .functio:hover {
+    background-color: rgb(207, 207, 206);
+     
+  }
+  
