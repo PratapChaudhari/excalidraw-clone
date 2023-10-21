@@ -113,4 +113,20 @@ header {
     background-color: rgb(207, 207, 206);
      
   }
+  @media screen and (max-width: 1000px) {
+    div.example{
+      display: none;
+
+    }
+    .met{
+      overflow:unset;
+      display:inline;
+      width:100vw;
+  
+    }
+    .let{
+      padding:0px;
+      margin: 0px;
+      height:10px;
+    }
   
